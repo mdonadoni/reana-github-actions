@@ -1,7 +1,7 @@
 Changes
 =======
 
-Version 1.1.0 (UNRELEASED)
+Version 1.1.0 (2023-10-26)
 --------------------------
 
 - Adds the ``release-docker`` action to automatically publish Docker images.
