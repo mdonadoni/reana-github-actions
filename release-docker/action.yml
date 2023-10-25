@@ -38,7 +38,9 @@ runs:
     - name: Checkout reanahub/reana
       uses: actions/checkout@v3
       with:
-        repository: reanahub/reana
+        # TODO: revert to reanahub repo
+        repository: mdonadoni/reana
+        ref: release-docker
         path: reana
 
     - name: Setup Python
